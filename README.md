@@ -13,7 +13,7 @@
 
   /* Nền */
   body{
-    background: url('THƯ.jpd')
+    background: url('THƯ.jpg')
                 no-repeat center/cover;
     height:100vh;
     display:flex;
