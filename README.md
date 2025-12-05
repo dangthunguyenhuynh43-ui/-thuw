@@ -11,27 +11,18 @@
 
   /* Nền */
   body{
-    background: url('THƯ.jpg')
-                no-repeat center/cover;
+    background: url('THƯ.jpg') no-repeat center/cover;
     height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
   }
 
-/* Lớp mờ bị loại bỏ */
-  /* body::before{
-    content:"";
-    position:absolute; inset:0;
-    background:rgba(0,0,0,0.45);
-    backdrop-filter:blur(5px);
-  } */
-
   /* CARD GIỚI THIỆU */
   .card{
     position:relative;
-    width:360px;
-    padding:28px;
+    width:440px;            /* ⭐ rộng ngang hơn  */
+    padding:28px 32px;      /* ⭐ mở rộng padding ngang */
     border-radius:20px;
     text-align:center;
     background:rgba(255,255,255,0.13);
@@ -53,8 +44,27 @@
     box-shadow:0 4px 12px rgba(0,0,0,0.4);
   }
 
-  h2{font-size:26px;font-weight:700;}
-  p.bio{margin-top:10px;line-height:1.6;font-size:15px;color:#f1f1f1;}
+  h2{font-size:26px;font-weight:700; margin-bottom:6px;}
+
+  /* ⭐ Phần hồ sơ chuyên nghiệp */
+  .profile-section{
+    margin-top:14px;
+    margin-bottom:10px;
+    text-align:left;
+  }
+
+  .profile-section h3{
+    font-size:17px;
+    margin-bottom:4px;
+    color:#ffecec;
+    font-weight:600;
+  }
+
+  .profile-section p{
+    font-size:14.5px;
+    line-height:1.5;
+    color:#f7f7f7;
+  }
 
   /* Social buttons */
   .social{
@@ -62,6 +72,7 @@
     display:flex;
     justify-content:center;
     gap:12px;
+    flex-wrap:wrap;
   }
 
   .social a{
@@ -93,7 +104,7 @@
 <div class="card">
   <img src="ĐT.jpg" class="avatar" alt="avatar">
 
- <h2>Nguyễn Huỳnh Đăng Thư</h2>
+  <h2>Nguyễn Huỳnh Đăng Thư</h2>
 
   <!-- 🔹 BẮT ĐẦU: Thông tin hồ sơ chuyên nghiệp -->
   <div class="profile-section">
