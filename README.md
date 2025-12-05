@@ -21,13 +21,13 @@
     align-items:center;
   }
 
-  /* Lớp mờ */
-  body::before{
+/* Lớp mờ bị loại bỏ */
+  /* body::before{
     content:"";
     position:absolute; inset:0;
     background:rgba(0,0,0,0.45);
     backdrop-filter:blur(5px);
-  }
+  } */
 
   /* CARD GIỚI THIỆU */
   .card{
@@ -105,6 +105,8 @@
     <a href="#">dangthu_nguyenhuynh</a>
     <a href="#">dangthunguyenhuynh43@gmail.com</a>
   </div>
+   <!-- Button quay lại trang chủ -->
+  <button class="back-btn" onclick="window.location.href='index.html'">Quay lại trang chủ</button>
 </div>
 
 </body>
