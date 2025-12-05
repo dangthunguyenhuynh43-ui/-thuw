@@ -1,5 +1,3 @@
-# -thuw
-<!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
@@ -93,21 +91,45 @@
 <body>
 
 <div class="card">
-  <img src="Đăng Thư.png" class="avatar" alt="avatar">
+  <img src="ĐT.jpg" class="avatar" alt="avatar">
 
-  <h2>Nguyễn Huỳnh Đăng Thư</h2>
-  <p class="bio">
-    Xin chào! Mình là học sinh lớp 12 Văn, yêu thích thể thao, du lịch, xem phim, công nghệ và thiết kế. Mình thích thực hiện những thứ yêu thích và mới mẻ✨  
-  </p>
+ <h2>Nguyễn Huỳnh Đăng Thư</h2>
+
+  <!-- 🔹 BẮT ĐẦU: Thông tin hồ sơ chuyên nghiệp -->
+  <div class="profile-section">
+    <h3>Giới thiệu</h3>
+    <p>Mình là Nguyễn Huỳnh Đăng Thư, học sinh lớp 12 Văn. Mình yêu thích sáng tạo và khám phá những điều mới.</p>
+  </div>
+
+  <div class="profile-section">
+    <h3>Sở thích</h3>
+    <p>• Thể thao<br>
+       • Du lịch<br>
+       • Xem phim<br>
+       • Công nghệ & thiết kế</p>
+  </div>
+
+  <div class="profile-section">
+    <h3>Tính cách</h3>
+    <p>Mình là người hoà đồng, năng động, thích trải nghiệm và thử thách bản thân ✨</p>
+  </div>
+  <!-- 🔹 KẾT THÚC: Thông tin hồ sơ chuyên nghiệp -->
 
   <div class="social">
     <a href="#">https://www.facebook.com/share/17oGvZN4PS/?mibextid=wwXIfr</a>
     <a href="#">dangthu_nguyenhuynh</a>
     <a href="#">dangthunguyenhuynh43@gmail.com</a>
   </div>
-   <!-- Button quay lại trang chủ -->
-  <button class="back-btn" onclick="window.location.href='index.html'">Quay lại trang chủ</button>
-</div>
+  <a href="https://nt4620567-byte.github.io/Nhom4-12van/"style="
+  display:inline-block;
+  padding:10px 16px;
+  text-decoration:none;
+  border:1px solid #ccc;
+  border-radius:6px;
+  font-size:16px;
+">
+  ← Quay lại trang chủ
+</a>
 
 </body>
 </html>
