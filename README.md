@@ -109,15 +109,14 @@
   <!-- 🔹 BẮT ĐẦU: Thông tin hồ sơ chuyên nghiệp -->
   <div class="profile-section">
     <h3>Giới thiệu</h3>
-    <p>Mình là Nguyễn Huỳnh Đăng Thư, học sinh lớp 12 Văn. Mình yêu thích sáng tạo và khám phá những điều mới.</p>
+    <p>Mình là Nguyễn Huỳnh Đăng Thư, học sinh lớp 12 Văn. Công việc mình muốn trong tương lai là Event Producer.</p>
   </div>
 
   <div class="profile-section">
     <h3>Sở thích</h3>
     <p>• Thể thao<br>
        • Du lịch<br>
-       • Xem phim<br>
-       • Công nghệ & thiết kế</p>
+       • Xem phim</p>
   </div>
 
   <div class="profile-section">
@@ -131,6 +130,9 @@
     <a href="#">dangthu_nguyenhuynh</a>
     <a href="#">dangthunguyenhuynh43@gmail.com</a>
   </div>
+
+</body>
+</html>
   <a href="https://nt4620567-byte.github.io/Nhom4-12van/"style="
   display:inline-block;
   padding:10px 16px;
@@ -141,6 +143,3 @@
 ">
   ← Quay lại trang chủ
 </a>
-
-</body>
-</html>
