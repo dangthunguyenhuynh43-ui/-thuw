@@ -126,14 +126,16 @@
 
   <div class="profile-section">
     <h3>Tính cách</h3>
-    <p>Mình là người hoà đồng, năng động, thích trải nghiệm và thử thách bản thân ✨</p>
+    <p>Mình khá hoà đồng, năng động và thích trải nghiệm ✨</p>
   </div>
 
   <div class="social">
-    <a href="#">Facebook</a>
-    <a href="#">Instagram</a>
-    <a href="#">Gmail</a>
-  </div>
+  <a href="https://www.facebook.com/share/1AGc7YD4mv/?mibextid=wwXIfr" target="_blank">Facebook</a>
+
+  <a href="https://www.instagram.com/dangthu_nguyenhuynh" target="_blank">Instagram</a>
+
+  <a href="mailto:dangthunguyenhuynh43@gmail.com" target="_blank">Gmail</a>
+</div>
 
   <!-- ⭐ Nút quay lại trang chủ -->
   <a class="back-home" href="https://nt4620567-byte.github.io/Nhom4-12van/">
