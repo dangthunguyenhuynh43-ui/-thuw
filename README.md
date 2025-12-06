@@ -9,6 +9,7 @@
 <style>
   *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;}
 
+  /* Nền */
   body{
     background: url('THƯ.jpg') no-repeat center/cover;
     height:100vh;
@@ -17,6 +18,7 @@
     align-items:center;
   }
 
+  /* CARD */
   .card{
     position:relative;
     width:440px;
@@ -31,6 +33,7 @@
     animation:fadeIn .8s ease;
   }
 
+  /* Avatar */
   .avatar{
     width:120px;
     height:120px;
@@ -42,6 +45,7 @@
 
   h2{font-size:26px;font-weight:700; margin-bottom:6px;}
 
+  /* Hồ sơ */
   .profile-section{
     margin-top:14px;
     margin-bottom:10px;
@@ -52,6 +56,7 @@
     font-size:17px;
     color:#ffecec;
     font-weight:600;
+    margin-bottom:4px;
   }
 
   .profile-section p{
@@ -60,6 +65,26 @@
     color:#f7f7f7;
   }
 
+  /* ⭐ Sở thích nằm ngang */
+  .hobbies{
+    display:flex;
+    gap:12px;
+    margin-top:6px;
+  }
+
+  .hobbies span{
+    background:rgba(255,255,255,0.2);
+    padding:6px 10px;
+    border-radius:10px;
+    font-size:14px;
+    color:#fff;
+    white-space:nowrap;
+    display:flex;
+    align-items:center;
+    gap:5px;
+  }
+
+  /* Social */
   .social{
     margin-top:18px;
     display:flex;
@@ -77,6 +102,9 @@
     font-weight:500;
     transition:.25s;
     font-size:14px;
+    display:flex;
+    align-items:center;
+    gap:6px;
   }
 
   .social a:hover{
@@ -85,6 +113,7 @@
     transform:translateY(-3px);
   }
 
+  /* Quay lại */
   .back-home{
     display:inline-block;
     padding:10px 16px;
@@ -102,6 +131,10 @@
     color:black;
   }
 
+  @keyframes fadeIn{
+    from{opacity:0; transform:translateY(20px);}
+    to{opacity:1; transform:translateY(0);}
+  }
 </style>
 
 </head>
@@ -112,32 +145,36 @@
 
   <h2>Nguyễn Huỳnh Đăng Thư</h2>
 
+  <!-- Giới thiệu -->
   <div class="profile-section">
     <h3>Giới thiệu</h3>
     <p>Mình là Nguyễn Huỳnh Đăng Thư, học sinh lớp 12 Văn. Công việc mình muốn trong tương lai là Event Producer.</p>
   </div>
 
+  <!-- ⭐ Sở thích NẰM NGANG + ICON -->
   <div class="profile-section">
     <h3>Sở thích</h3>
-    <p>• Thể thao<br>
-       • Du lịch<br>
-       • Xem phim</p>
+    <div class="hobbies">
+      <span>⚽ Thể thao</span>
+      <span>✈️ Du lịch</span>
+      <span>🎬 Xem phim</span>
+    </div>
   </div>
 
+  <!-- Tính cách -->
   <div class="profile-section">
     <h3>Tính cách</h3>
-    <p>Mình khá hoà đồng, năng động và thích trải nghiệm ✨</p>
+    <p>Mình là người hoà đồng, năng động, thích trải nghiệm và thử thách bản thân ✨</p>
   </div>
 
+  <!-- Social có icon -->
   <div class="social">
-  <a href="https://www.facebook.com/share/1AGc7YD4mv/?mibextid=wwXIfr" target="_blank">Facebook</a>
+    <a href="https://www.facebook.com/share/17oGvZN4PS/?mibextid=wwXIfr" target="_blank">📘 Facebook</a>
+    <a href="https://www.instagram.com/dangthu_nguyenhuynh" target="_blank">📸 Instagram</a>
+    <a href="mailto:dangthunguyenhuynh43@gmail.com" target="_blank">📧 Gmail</a>
+  </div>
 
-  <a href="https://www.instagram.com/dangthu_nguyenhuynh" target="_blank">Instagram</a>
-
-  <a href="mailto:dangthunguyenhuynh43@gmail.com" target="_blank">Gmail</a>
-</div>
-
-  <!-- ⭐ Nút quay lại trang chủ -->
+  <!-- Quay lại trang chủ -->
   <a class="back-home" href="https://nt4620567-byte.github.io/Nhom4-12van/">
     ← Quay lại trang chủ
   </a>
